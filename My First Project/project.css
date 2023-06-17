@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  padding: 8px 11px;
+  border-radius: 20px;
+}
+
+li:hover {
+  background-color: blueviolet;
+  transition: ease 0.7s;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  color: white;
+  background: rgb(128, 244, 151);
+  background: linear-gradient(
+    106deg,
+    rgb(119, 246, 144) 0%,
+    rgba(45, 123, 253, 1) 100%
+  );
+  font-weight: 700;
+  font-size: 21px;
+  height: 10vh;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 38px;
+}
+
+.header {
+  height: 90vh;
+  background-image: url("./images/subtle-prism\ \(1\).png");
+  display: flex;
+  padding-top: 170px;
+}
+.welcome_header {
+  display: flex;
+  flex-direction: column;
+}
+
+.colored_welcome {
+  color: blue;
+}
+
+.details {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  gap: 50px;
+}
+
+.hi {
+  font-size: 60px;
+}
+
+.welcome {
+  font-size: 40px;
+}
+
+.header_details {
+  font-size: 23px;
+  line-height: 34px;
+}
+
+.hello_img {
+  width: 500px;
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+.hello_img:hover {
+  transform: scale(1.1);
+  transition: ease 0.7s;
+}
+.active {
+  background-color: blueviolet;
+}
